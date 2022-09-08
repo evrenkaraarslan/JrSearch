@@ -1,0 +1,1 @@
+export const commentUrl = (param) => `https://jsonplaceholder.typicode.com/comments?q=${param}`

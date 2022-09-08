@@ -1,0 +1,38 @@
+.boxMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+    margin: 20px 0;
+    padding-left: 2px;
+    border: 1px solid rgb(180, 200, 255);
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+
+    div {
+        width: 100%;
+        word-break: break-all;
+    }
+
+    .name {
+        color: rgb(44, 84, 196);
+        font-weight: bold;
+    }
+
+    .email {
+        font-weight: 600;
+    }
+
+    .description {
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 800px) {
+    .boxMain {
+        height: 240px;
+    }
+}

@@ -1,0 +1,32 @@
+.listMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+
+    h1 {
+        font-family: cursive;
+        color: rgb(253, 253, 158);
+    }
+
+    .paginationMain {
+        width: 70%;
+    }
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .listMain {
+        h1 {
+            font-size: 24px;
+        }
+    }
+}
